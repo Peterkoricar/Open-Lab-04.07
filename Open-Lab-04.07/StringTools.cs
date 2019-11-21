@@ -6,7 +6,12 @@ namespace Open_Lab_04._07
     {
         public string Reverse(string original)
         {
-            throw new NotImplementedException();
+            string i = "";
+            for (int a = original.Length - 1; a >= 0; a--)
+            {
+                i += original[a];
+            }
+            return i;
         }
     }
 }
